@@ -1,0 +1,12 @@
+__pycache__/
+
+venv/
+.venv/
+
+.pytest_cache/
+
+instance/
+*.db
+*.sqlite3
+
+.vscode/
