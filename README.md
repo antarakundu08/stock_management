@@ -21,6 +21,7 @@ Includes **CRUD operations** and a **restock logic** that flags products when av
 ---
 
 ## Project Structure
+```bash
 stock_management/
 │── app.py                  # Entry point
 │── config.py               # App configuration (DB URL, settings)
@@ -39,6 +40,7 @@ stock_management/
 │
 └── tests/
     └── test_product_api.py # Unit tests for API
+```
 
 ---
 
@@ -52,3 +54,4 @@ python -m venv venv
 venv\Scripts\activate 
 pip install -r requirements.txt  # Install dependencies
 python app.py  # Run python app
+```
